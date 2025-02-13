@@ -1,0 +1,19 @@
+.navbar a {
+  text-decoration: none;
+}
+
+.link {
+  display: block;
+  color: white;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+  border-radius: var(--mantine-radius-md);
+  font-weight: 500;
+
+  @mixin hover {
+    font-weight: 800;
+    /* background-color: light-dark(
+      var(--mantine-color-gray-0),
+      var(--mantine-color-dark-6)
+    ); */
+  }
+}
